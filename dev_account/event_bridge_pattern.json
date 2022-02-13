@@ -1,0 +1,23 @@
+{
+    "detail-type": [
+      "CodeCommit Repository State Change"
+    ],
+    "resources": [
+      "arn:aws:codecommit:<regin>:<infra_account_id>:<repo_name>"
+    ],
+    "source": [
+      "aws.codecommit"
+    ],
+    "detail": {
+      "referenceType": [
+        "branch"
+      ],
+      "event": [
+        "referenceCreated",
+        "referenceUpdated"
+      ],
+      "referenceName": [
+        "<branch_name>"
+      ]
+    }
+  }
